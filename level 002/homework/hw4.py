@@ -1,6 +1,7 @@
 name= "Inga"
 surname="baghduashvili"
-age=18
+num1=5 
+num2=10
 print(name+surname)
 print(num1+num2)
 
