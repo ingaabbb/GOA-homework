@@ -19,6 +19,7 @@ num2=6
 num3=3
 num4=7
 num5=5
+
 jami=num1+num2+num3+num4+num5
 sashualo=jami/5
 

@@ -12,9 +12,6 @@ print(word*5)
 
 #Task 3
 
-# 4) შექმენით 2 ცვლადი, სადაც შეინახავთ თქვენს სახელს და გვარს. თქვენი დავალებაა დღეს ნასწავლი კონკადინაციის მეშვეობით დაბეჭდოთ
-#  შემდეგი ტექსტი.
-
 num1=5
 num2=2.5
 namravli= num1 * num2
@@ -27,5 +24,3 @@ gvari="Baghduashvili"
 
 print("Hello, my name is "+saxeli+" and my surname is "+gvari)
 
-
-"Hello, my name is {თქვენი სახელი} and my surname is {თქვენი გვარი}."
