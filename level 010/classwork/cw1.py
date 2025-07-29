@@ -17,7 +17,7 @@ print(fav_num**5)
 # elif - შესრულდება, თუ არ სრულდება if -ის პირობა, მაგრამ elif-ის სრულდება
 # else - შესრულდება, თუ ზემოთხსენებული არცერთი არ შესრულდება. 
 
-ricxvi= 12
+ricxvi= 20
 
 if ricxvi < 10:
     print("ricxvi atze naklebia")
