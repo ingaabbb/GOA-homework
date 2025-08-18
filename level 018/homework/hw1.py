@@ -26,3 +26,26 @@ for i in range(5):
     num=int(input("shemoitanet ricxvi"))
     jami+=num
 print(jami/5)
+
+# Task 5 
+# მაგალითი 1
+
+sezoni=input("daweret tkveni sayvareli sezoni")
+
+if sezoni=="gazafxuli":
+    print("momxmareblis sayvareli sezonia Gazafxuli")
+elif sezoni=="zafxuli":
+    print("momxmareblis sayvareli sezonia zafxuli")
+elif sezoni=="zamtari":
+    print("momxmareblis sayvareli sezonia zamtari")
+elif sezoni=="arcerti":
+    print("momxmarebels ar akvs sayvareli sezoni")
+else:
+    print("momxmareblis sayvareli sezonia shemodgoma")
+
+# მაგალითი 2
+age=int(input("daweret tkveni asaki"))
+if age<18:
+    print("samwuxarod tkven ver sheqmnnit gverds")
+else:
+    print("shegidzliat shekmnat tkveni gverdi")
