@@ -16,4 +16,4 @@ print(UNIVERSITIES[2])
 print(UNIVERSITIES[3])
 # რომ გავცვალოთ მესამე და მეხუთე მნიშვნელობები:
 UNIVERSITIES[2], UNIVERSITIES[4]=UNIVERSITIES[4], UNIVERSITIES[2]
-print(UNIVERSITIES)
+

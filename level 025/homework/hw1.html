@@ -1,0 +1,47 @@
+ <!-- 2) კომენტარების სახით ახსენით რაში გვჭირდება name, value და selected ატრიბუტები.
+
+3) შექმენით ვებ-საიტი ნებისმიერი თემატიკის შესახებ, გამოიყენეთ აქამდე მთლიანად, განსაკუთრებით ბოლო გაკვეთილზე ახსნილი მასალა.
+
+4) ივარჯიშეთ form-ების და drop-down menu-ების შექმნაზე. -->
+
+<!-- Task 2 -->
+<!-- name ატრიბუტი გვჭირდება იმისთვის, რომ კომპიუტერს გავაგებინოთ მონაცემთა ბაზაში სად უნდა შეინახოს ინფორმაცია.
+     value ატრიბუტი drop-down menu-ში გვჭირდება იმისთვის, რომ მომხმარებლის მიერ არჩეული მონაცემის სახელი სწორად შევინახოთ მონაცემთა ბაზაში. 
+     selected ატრიბუტის საშუალებით მონაცემი, რომელსაც selected უწერია უკვე არჩეული იქნება საიტის გახსნისთანავე. -->
+
+<!-- Task 3-4 -->
+<html>
+    <head> 
+        <title> Web </title>
+    </head> 
+    <body>
+        <h1> ბანაკში სარეგისტრაციო ფორმა </h1>
+
+        <form>
+            <label for="fname" > სახელი: </label>
+            <input type="text" name="fname" id="fname" placeholder="მიუთითეთ თქვენი სახელი" required>
+            <br> <br>
+
+            <label for="lname" > გვარი: </label>
+            <input type="text" name="lname" id="lname" placeholder="მიუთითეთ თქვენი გვარი">
+            <br> <br>
+
+            <label for="age" > ასაკი: </label>
+            <input type="text" name="age" id="age" placeholder="მიუთითეთ თქვენი ასაკი" required>
+            <br> <br>
+
+            <p> რომელი უნივერსიტეტის სტუდენტი ხართ? </p>
+            <select name="university" id="university">
+                <option value="ჯავახიშვილი" selected> ჯავახიშვილი </option>
+                <option value="ილიაუნი" > ილიაუნი </option>
+                <option value="თავისუფალი უნივერსიტეტი" > თავისუფალი უნივერსიტეტი </option>
+            </select>
+
+            <br> <br>
+            <label for="Description" > მოკლედ აღწერეთ თქვენი უნარები და გვითხარით, რატომ უნდა აგირჩიოთ: </label>
+            <input type="Description" name="Description" id="Description"  required>
+
+            <button> გაგზავნა </button>
+        </form>
+    </body>
+</html>

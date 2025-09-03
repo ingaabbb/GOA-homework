@@ -1,0 +1,106 @@
+<!-- 1) კომენტარების სახით ახსენით რა არის drop-down menus, რისთვის ვიყენებთ და როგორ ვქმნით.
+
+2) შექმენით drop-down menu რომლის ჩამონათვლაშიც ასარჩევად იქნება პროგრამირების ენები. 
+
+3) შექმენით შექმენით drop-down menu რომლის ჩამონათვლაშიც ასარჩევად იქნება 5 ნებისმიერი კერძი. ამ 5 კერძიდან ერთ-ერთს გაუწერეთ selected ატრიბუტი რომ გახდეს პირველხარისხოვანი.
+
+4) შექმენით მსგავსი ტიპის form-ები: -->
+
+<!-- Task 1 -->
+<!-- drop-down menus საშუალებას გვაძლევს, ჩამოშლილი ვარიანტებიდან ავარჩიოთ ჩვენთვის სასურველი.
+ ვქმნით შემდეგნაირად: select თეგში  ვწერთ option  თეგებს. option თეგში ვწერთ ვარიანტებს, რომელთაგანაც 
+ უნდა აირჩიოს მომხმარებელმა სასურველი ვარიანტი    -->
+
+<!-- Task 2  -->
+ <html>
+    <head>
+        <title> web </title>
+    </head>
+
+    <body>
+        <p> აარჩიეთ პროგრამირების ენა: </p>
+        <select>
+            <option> python </option>
+            <option> js </option>
+            <option> C++ </option>
+        </select>
+    </body>
+ </html>
+
+ <!-- Task 3 -->
+<html>
+    <head>
+        <title> web </title>
+    </head>
+    <body>
+        <p> აარჩიე ფავორიტი კერძი: </p>
+        <select name="კერძი">
+            <option value="კერძი1"> კერძი1 </option>
+            <option value="კერძი2"> კერძი2 </option>
+            <option value="კერძი3" selected > კერძი3 </option>            
+            <option value="კერძი4"> კერძი4 </option>       
+            <option value="კერძი5"> კერძი5 </option>
+        </select>>
+    </body>
+</html>
+
+<!-- Task 4 -->
+<html>
+    <head>
+        <title> web </title>
+    </head>
+    <body>
+        <form>
+        <label for="name"> name: </label>
+        <input type="text" id="name"  name="name">
+        
+        <p> Select one: </p>
+        <p> category: </p>
+        <select>
+            <option selected > games</option>
+            <option> option2 </option>
+        </select>
+
+        <p> Subcategory: </p>
+        <select>
+            <option> Football </option>
+            <option> Cricket </option>
+            <option> Baseball </option>
+            <option> Tennis </option>
+        </select>
+
+        <button> submit </button>
+        </form>
+    </body>
+</html>
+
+<html>
+    <head> 
+        <title> Web </title>
+    </head>
+    <body>
+        <form>
+            <label for="fname"> First name: </label>
+            <input type="text" id="fname" name="fname" >
+
+            <label for="lname"> Last name: </label>
+            <input type="text" id="lname" name=lname>
+
+            <label for> Email: </label>
+            <input type="email" id="email" name="email ">
+
+            <label for="age"> Age: </label>
+            <input type="text" id="age" name=age>  
+            
+            <p> what is your favvorite fruit? </p>
+            <select>
+                <option> oranges </option>
+                <option> cantaloupes </option>
+                <option> mangoes </option>
+                <option> honey dews </option>
+            </select>
+
+            <button> Submit </button>
+        </form>
+    </body>
+</html>
