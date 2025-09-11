@@ -14,11 +14,16 @@
 # შემთხვევაში "რიცხვი არაა სიაში"
 
 # Task 1 
+# in ოპერატორის დახმარებით ვამოწმებთ შედის თუ არა სასურველი ელემენტი სიაში. 
+#  მაგ: list=[1, 2, 3, 4, 5]
+#  for i in list:
+#     print (i)
+#  ამ შემთვევაში ფუნქცია გადაუვლის სიის ყველა ელემენტს და დაბეჭდავს მათ.
+
 # Task 2
 list=[1, 2, 3, 4, 5]
 for i in list:
     print (i)
-
 # Task 3
 list=["Mari", "Nika", "Gio"]
 
@@ -36,3 +41,11 @@ for i in list:
 
 print(jami)
 
+# Task 5
+list=[1, 2, 3, 4, 5]
+
+num=int(input("shemoitanet ricxvi"))
+if num in list:
+    print("ricxvi aris siashi")
+else :
+    print("ricxvi araa siashi")
