@@ -26,14 +26,16 @@ def kloni1(argumenti):
 kloni1("world")
 
 # Task 2
+print("hi")
 def kloni2(word, sadziebo):
-    # word= world  # sadziebo=o
-    word_sigrdze=len(word)
-    sadziebo_sigrdze=len(sadziebo)
-
-    #  for i in word:
-        
-    #     if i==sadziebo:
-    #          print()
+    counter=0
+    while counter<len(word):
+        if word[counter]==sadziebo:
+          return counter
+          counter+=1
+    return -1
 
 
+kloni2("world","r")
+
+print("hello")

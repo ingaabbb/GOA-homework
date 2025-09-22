@@ -12,9 +12,13 @@
 # Task 6
 i=0
 while i<5:
-    print("1")
+    print("0")
     i+=1
-print("0")
+print("1")
+
+
+for i in range(4):
+    print(i)
 
 # Task 7
 sia=[]

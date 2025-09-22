@@ -1,0 +1,111 @@
+<!-- 4) შექმენით ერთ გვერდიანი საიტი თავისუფალ თემაზე.
+
+საიტს აუცილებლად უნდა ჰქონდეს: 
+header-ი, სადაც იქნება ლოგო, მთავარი სათაური და ნავიგაცია თითოეულ სექციაზე(ნაციგაცია უნდა მოხდეს იმავე გვერდზე, ანუ ერთგვერდიანი ნავიგაცია).
+main თეგი 5 სექციით(<section>). თითოეულ სექციას უნდა ჰქონდეს თავისი სათაური(h2). ბოლო სექციაში გამოიტანეთ საიტის თემასთან
+     დაკავშირებული ცხრილი(table).
+footer თეგი, სადაც გამოიტანთ იმავე ნავიგაციას, რაც header-ში გქონდათ და საკონტაქტო ინფორმაციას. email, tel, location.
+
+გამოიყენეთ div-თეგიც სექციებში ელემენტების გამოსაყოფათ და გასტილეთ საიტი ყველა ნასწავლი css კუთვნილების გამოყენებით -->
+
+<html>
+    <head>
+        <title> ring's shop </title>
+    </head>
+    <body>
+        <header>
+            <nav style="text-align: center;">
+                <img src="./images/logo.png" width="50" alt="image is not available" style="text-align:left;">
+                
+                <a href="#first_ring" style="color:palevioletred"> first ring </a>
+                <a href="#second_ring" style="color:palevioletred"> second ring </a>
+                <a href="#third_ring" style="color:palevioletred"> third ring </a>
+                <a href="#fourth_ring" style="color:palevioletred"> fourth ring </a>
+                <a href="#fifth_ring" style="color:palevioletred"> fifth ring </a>
+            </nav>
+        </header>
+        <main>
+            <h1 style="color:purple"> Ring's shop </h1>
+            <section style="color:plum">
+                <h2 id="first_ring" > first ring: </h2>
+                <img src="./images/ring1.jpg" width="200" alt="image is not supported">
+                <p> price: 50 </p>
+                <button style="background-color: palevioletred; color:black"> buy </button>
+            </section>
+
+            <section style="color:plum">
+                <h2 id="second_ring" > second ring: </h2>
+                <img src="./images/ring2.jpg" width="200" alt="image is not supported">
+                <p> price: 65 </p>
+                <button style="background-color: palevioletred; color:black"> buy </button>
+            </section>
+
+            <section style="color:plum">
+                <h2 id="third_ring" > third ring: </h2>
+                <img src="./images/ring3.jpg" width="200" alt="image is not supported">
+                <p> price: 70 </p>
+                <button style="background-color: palevioletred; color:black"> buy </button>
+            </section>
+
+            <section style="color:plum">
+                <h2 id="fourth_ring" > fourth ring: </h2>
+                <img src="./images/ring4.jpg" width="200" alt="image is not supported">
+                <p> price: 75 </p>
+                <button style="background-color: palevioletred; color:black"> buy </button>
+            </section>
+
+            <section style="color:plum">
+                <h2 id="fifth_ring" > fifth ring: </h2>
+                <img src="./images/ring5.jpg" width="200" alt="image is not supported">
+                <p> price: 50 </p>
+                <button style="background-color: palevioletred; color:black"> buy </button>
+            </section>
+            <br> <br> 
+            <section>
+                <table border="2" style="border-color: purple; color: palevioletred;"> 
+                    <thead>
+                        <tr> 
+                            <th> name </th>
+                            <th> price </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> first ring </td>
+                            <td> 50 </td>
+                        </tr>
+                        <tr>
+                            <td> first ring </td>
+                            <td> 65 </td>
+                        </tr>
+                        <tr>
+                            <td> first ring </td>
+                            <td> 70 </td>
+                        </tr>
+                        <tr>
+                            <td> first ring </td>
+                            <td> 75 </td>
+                        </tr>
+                        <tr>
+                            <td> first ring </td>
+                            <td> 50 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br> <br> 
+        </main>
+        <footer>
+            <a href="#first_ring" > first ring </a>
+            <a href="#second_ring" > second ring </a>
+            <a href="#third_ring" > third ring </a>
+            <a href="#fourth_ring" > fourth ring </a>
+            <a href="#fifth_ring" > fifth ring </a>
+
+            <p> <b>contact: </b></p>
+            <p> email: rings@gmail.com </p> 
+            <p> tel: 577 77 77 </p>
+            <p> location: Tbilisi </p>
+        </footer>
+    </body>
+</html>
