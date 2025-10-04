@@ -1,0 +1,58 @@
+<!-- 2) კომენტარებით ახსენით რა არის inline CSS-ი და internal CSS, ასევე ახსენით მათ შორის განსხვავება
+
+3) კომენტარებით ახსენით რისთვის გამოიყენება style თეგი და რატომ უნდა ჩავწეროთ ის head თეგში და არა body თეგში
+
+4) შექმენით მარტივი საიტი და უკვე ნასწავლი css-ის კუთვნილებებით და internal CSS-ით გასტილეთ ის -->
+
+<!-- Task 2 -->
+<!-- inline CSS არის როდესაც html ელემენტებს ცალცალკე ვსტილავთ, ამ დროს style-ს ვწერთ ელემენტის გამხსნელ თეგში .
+     internal CSS ის დროს head თეგის ბოლოში ვწერთ style თეგს და button, p და მსგავს ელემენტებს ამგვარად ვსტილავთ.
+     inline CSS ის დროს გვიწევს რომ ერთი და იგივე ელემენტს ( ანუ მაგალითად რამდენიმე პარაგრაფს) ცალცალკე გავუწეროთ ერთი და იგივე სტილი.
+     internal CSS კი გვეხმარება, რომ ყოველ პარაგრაფს ერთხელ განვუსაზღვროთ სტილი -->
+
+<!-- Task 3 -->
+<!-- style თეგი გამოიყენება იმისთვის, რომ ელემენტებს შევუცვალოთ სტილი, მაგ: ფერი, ზომა, მდებარეობა და ა.შ
+head თეგში ვწერთ იმიტომ, რომ head ში იწერება ყველაფერი ის, რაც არ ჩანს საიტზე, ხოლო body თეგში ვწერთ იმას, რასაც ვხედავთ საიტზე შესვლისას. -->
+
+<!-- Task 4 -->
+<html>
+     <head>
+          <title> Web </title>
+     </head>
+     <body>
+          <head>
+               <nav>
+               <a href="#home"> home </a>
+               <a href="#contact"> contact</a>
+               </nav>
+               <style>
+                    h1{
+                         color:purple;
+                         text-align: center;
+                         font-size: large;
+                    }
+                    p{
+                         color: palevioletred;
+                         font-size: medium;
+                    }
+                    nav{
+                         text-align: center;
+                    }
+                    a{
+                         font-size: x-large;
+                         color:brown
+                    }
+               </style>
+          </head>
+          <body>
+               <h1 id="home"> Home </h1>
+               <p> Hello, we are marketing company. you can contact us and we will help you. </p>
+               <h1 id="contact"> Contact info</h1>
+               <p> You can contact us via online chat, phone or email</p>
+          </body>
+          <footer>
+               <P>Tel: 577 777 777 </P>>
+               <p>Email: haha@gmail.com</p>
+          </footer>
+     </body>
+</html>
