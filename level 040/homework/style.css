@@ -1,0 +1,15 @@
+button{
+                background-color:rgb(96, 96, 230);
+                color:whitesmoke;
+                border-radius: 15px;
+                border-color:rgb(96, 96, 230) ;
+            }
+.button{
+    background-color: green;
+    border-color: green;
+}
+#unique{
+    background-color: yellow;
+    color:black;
+    border-color: yellow;
+}
